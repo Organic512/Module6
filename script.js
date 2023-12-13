@@ -1,5 +1,3 @@
-var APIKey = "b0c7cb6a71b8fc52b206ef36225601d1";
-
 async function getCurrentWeather(city) {
     var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
 
